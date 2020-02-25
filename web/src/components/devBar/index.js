@@ -18,6 +18,7 @@ function DevBar() {
           rel="noopener noreferrer"
           href="https://docs.google.com/forms/d/1I4IcnIXNJ3Qc1hWW8tmP0EoipUM-amwGtCkSGpdqozY/viewform?edit_requested=true"
         >
+          {" "}
           Reporte
         </a>
       </h2>
