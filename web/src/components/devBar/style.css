@@ -1,0 +1,53 @@
+img.logo {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.devBar {
+    width: 290px;
+    height: 100px;
+    margin-top: 35px;
+    padding: 25px 25px 70px 25px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 5px 0 #121212;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+    .devBar {
+        padding: 15px 10px 55px 10px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .devBar {
+        padding: 15px 10px 55px 10px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .devBar {
+        padding: 25px 16px 70px 16px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .devBar {
+        padding: 25px 10px 70px 10px;
+    }
+}
+
+.devBar h2 {
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.devBar a {
+    text-decoration: none;
+    color: #c22349;
+}

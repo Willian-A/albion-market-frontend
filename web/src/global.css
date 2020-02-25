@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+* {
+    font-family: "Ubuntu";
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #212121;
+}
+
+body {
+    padding-top: 50px;
+    margin: 0 55px 45px 26px;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        padding-top: 30px;
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    body {
+        padding-top: 50px;
+        margin: 0 520px 45px 25px;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    body {
+        padding-top: 50px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    body {
+        padding-top: 50px;
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    body {
+        padding-top: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    body {
+        padding-top: 50px;
+        margin-left: 220px;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    body {
+        padding-top: 50px;
+        margin: 0 55px 45px 26px;
+    }
+}

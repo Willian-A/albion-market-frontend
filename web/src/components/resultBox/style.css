@@ -1,0 +1,95 @@
+.city-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.city-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms linear;
+}
+
+.city-container .city {
+    float: left;
+    width: 290px;
+    height: 100px;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 0 50px 35px 0;
+    box-shadow: 20px 20px 5px 0 #121212;
+    background-color: #ffffff;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+    .city-container .city {
+        padding: 20px 10px 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .city-container .city {
+        padding: 20px 17px 10px 17px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .city-container .city {
+        padding: 20px 17px 10px 17px;
+    }
+}
+
+@media only screen and (min-width: 768) and (max-width: 960px) {
+    .city-container .city {
+        padding: 20px 17px 10px 17px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .city-container .city {
+        width: 250px;
+        padding: 20px 0 10px 20px;
+        margin: 0 25px 25px 0;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .city-container {
+        width: 70%;
+    }
+}
+
+.city-container .city h2 {
+    padding-bottom: 8px;
+}
+
+.city-container .city h3 {
+    color: #535353;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+
+.city-container .city mark {
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+
+.city-container .city mark.green {
+    color: #45ad00;
+}
+
+.city-container .city mark.blue {
+    color: #006eff;
+}
+
+.city-container .city mark.purple {
+    color: #7400e0;
+}
