@@ -11,8 +11,8 @@ function ErrorParse(response) {
 
       return (
         <div className="error-alert">
-          <h2>O item pesquisado não existe!</h2>
-          <h3>Verifique se o nome foi digitado corretamente</h3>
+          <h2>Algum Erro Foi Encontrado</h2>
+          <h3>O nome do item e/ou a qualidade estão erradas</h3>
         </div>
       );
     } else {

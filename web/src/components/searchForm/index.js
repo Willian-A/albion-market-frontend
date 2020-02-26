@@ -4,13 +4,13 @@ import "./style.css";
 
 function SearchForm({ onSubmit }) {
   const [itemName, setItemName] = useState("");
-  const [itemEnchant, setItemEnchant] = useState("");
+  const [itemQuality, setItemQuality] = useState("");
 
   async function submitData(e) {
     e.preventDefault();
     await onSubmit({
       itemName,
-      itemEnchant
+      itemQuality
     });
   }
   return (
@@ -35,10 +35,10 @@ function SearchForm({ onSubmit }) {
             className="inputs"
             type="number"
             placeholder="EX: De 0 a 3"
-            name="itemEnchant"
-            id="itemEnchant"
-            value={itemEnchant}
-            onChange={e => setItemEnchant(e.target.value)}
+            name="itemQuality"
+            id="itemQuality"
+            value={itemQuality}
+            onChange={e => setItemQuality(e.target.value)}
           />
         </div>
 
