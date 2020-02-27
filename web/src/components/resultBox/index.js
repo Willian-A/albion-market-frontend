@@ -18,6 +18,7 @@ function ResultBoxes({ data }) {
     data.quality = "Obra-prima - " + data.quality;
   } else {
     enchantType = "null";
+    data.quality = "Padrão - " + data.quality;
   }
 
   document.getElementById("city-container").style.visibility = "visible";
