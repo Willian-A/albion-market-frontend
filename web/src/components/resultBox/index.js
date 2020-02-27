@@ -4,15 +4,17 @@ import "./style.css";
 function ResultBoxes({ data }) {
   var enchantType;
 
-  /*if (data.quality === 1) {
-    enchantType = "green";
-  } else if (data.quality === 2) {
-    enchantType = "blue";
+  if (data.quality === 2) {
+    enchantType = "iron ";
   } else if (data.quality === 3) {
-    enchantType = "purple";
+    enchantType = "bronze";
+  } else if (data.quality === 4) {
+    enchantType = "silver";
+  } else if (data.quality === 5) {
+    enchantType = "gold";
   } else {
     enchantType = "null";
-  }*/
+  }
 
   document.getElementById("city-container").style.visibility = "visible";
   document.getElementById("city-container").style.opacity = "1";

@@ -34,7 +34,7 @@ function SearchForm({ onSubmit }) {
           <input
             className="inputs"
             type="number"
-            placeholder="EX: De 0 a 3"
+            placeholder="EX: De 1 a 5"
             name="itemQuality"
             id="itemQuality"
             value={itemQuality}

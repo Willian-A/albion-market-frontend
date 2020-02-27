@@ -82,14 +82,18 @@
     padding-bottom: 8px;
 }
 
-.city-container .city mark.green {
-    color: #45ad00;
+.city-container .city mark.iron {
+    color: #838e96;
 }
 
-.city-container .city mark.blue {
-    color: #006eff;
+.city-container .city mark.bronze {
+    color: #724f19;
 }
 
-.city-container .city mark.purple {
-    color: #7400e0;
+.city-container .city mark.silver {
+    color: #c5cdd4;
+}
+
+.city-container .city mark.gold {
+    color: #ffd000;
 }
