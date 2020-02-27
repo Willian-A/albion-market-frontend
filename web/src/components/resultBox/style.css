@@ -83,17 +83,17 @@
 }
 
 .city-container .city mark.iron {
-    color: #838e96;
+    color: #676d72;
 }
 
 .city-container .city mark.bronze {
-    color: #724f19;
+    color: #a0660f;
 }
 
 .city-container .city mark.silver {
-    color: #c5cdd4;
+    color: #a6a9ac;
 }
 
 .city-container .city mark.gold {
-    color: #ffd000;
+    color: #dfab00;
 }
