@@ -6,16 +6,16 @@ function ResultBoxes({ data }) {
 
   if (data.quality === 2) {
     enchantType = "iron ";
-    data.quality = "Bom - "+ data.quality;
+    data.quality = "Bom - " + data.quality;
   } else if (data.quality === 3) {
     enchantType = "bronze";
-    data.quality = "Excepcional - "+ data.quality + ;
+    data.quality = "Excepcional - " + data.quality;
   } else if (data.quality === 4) {
     enchantType = "silver";
-    data.quality ="Excelente - " + data.quality ;
+    data.quality = "Excelente - " + data.quality;
   } else if (data.quality === 5) {
     enchantType = "gold";
-    data.quality = "Obra-prima - " + data.quality ;
+    data.quality = "Obra-prima - " + data.quality;
   } else {
     enchantType = "null";
   }
