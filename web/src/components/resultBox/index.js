@@ -17,7 +17,7 @@ function ResultBoxes({ data }) {
     enchantType = "gold";
     data.quality = "Obra-prima - " + data.quality;
   } else {
-    enchantType = "null";
+    enchantType = "normal";
     data.quality = "Padrão - " + data.quality;
   }
 

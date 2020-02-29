@@ -82,6 +82,10 @@
     padding-bottom: 8px;
 }
 
+.city-container .city mark.normal {
+    color: #141516;
+}
+
 .city-container .city mark.iron {
     color: #728ba7;
 }
